@@ -5,40 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healt</title>
+    <link rel="stylesheet" href="./estilos.css">
 </head>
 <body>
     <header>
-        <nav>
-        <ul>
-            <li><a href="./Index.html">Inicio</a></li>
-            <li><a href="./Paginas/Nosotros.html">Nosotros</a></li>
-            <li><a href="./Paginas/Servicios.html">Servicios</a></li>
-            <li><a href="./Paginas/Promociones.html">Promociones</a></li>
-            <li><a href="./Paginas/Contacto.html">Contacto</a></li>
-            <hr>
-        </ul>
-    </nav>
+        <nav class="menu">
+            <img src="./Recursos/LOGO_HEALT.png" alt="Fondo" class="menu__logo">
+            <ul class="menu__lista">
+                <li class="menu__item"><a href="./Index.html">Inicio</a></li>
+                <li class="menu__item"><a href="./Paginas/Nosotros.html">Nosotros</a></li>
+                <li class="menu__item"><a href="./Paginas/Servicios.html">Servicios</a></li>
+                <li class="menu__item"><a href="./Paginas/Promociones.html">Promociones</a></li>
+                <li class="menu__item"><a href="./Paginas/Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <h1>HEALT</h1>
-        <h3>ALINEANDO TU ENERGIA</h3>
-        <p>Masaje Terapeutico Profesional Con Tecnicas de 
+        <section class="healt">
+            <h1 class="healt__titulo">HEALT</h1>
+            <h3 class="healt__subtitulo">ALINEANDO TU ENERGIA</h3>
+            <p class="healt__mensaje">Masaje Terapeutico Profesional Con Tecnicas de 
             Masoteria y Quiropraxia</p>
-            <input type="button" value="Agenda aquí">
-            <br>
-        <img src="./Recursos/index.jpg" alt="Healt">
+            <input class="healt__button" type="button" value="Agenda aquí">
+        </section>
     </main>
     <footer>
-        <hr>
-        <ul>
-        <li><img src="./Recursos/instagram.png" alt="instagram">
-        </li>
-        <li><img src="./Recursos/facebook.png" alt="facebook">
-        </li>
-        <li><img src="./Recursos/whatsapp.png" alt="whatsapp">
-        </li>
-    </ul>
-        <h5>Aviso de privacidad-Terminos y condiciones</h5>
+        <div class="block__element">
+            <ul class="RedesSociales__lista">
+                <li class="RedesSociales__item"><img src="./Recursos/instagram.png" alt="instagram"></li>
+                <li class="RedesSociales__item"><img src="./Recursos/facebook.png" alt="facebook"></li>
+                <li class="RedesSociales__item"><img src="./Recursos/whatsapp.png" alt="whatsapp"></li>
+            </ul>
+        <h5 class="leyenda">Aviso de privacidad-Terminos y condiciones</h5>
+        </div>
     </footer>
 </body>
 </html>
