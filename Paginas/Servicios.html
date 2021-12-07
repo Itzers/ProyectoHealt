@@ -5,52 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
-    <link rel="stylesheet" href="../estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;900&family=Source+Serif+Pro:wght@200;300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/estilos.css">
 </head>
 <body>
     <header>
-        <nav>
-        <ul>
-            <li>
-                <a href="../Index.html">Inicio</a>
-            </li>
-            <li>
-                <a href="./Nosotros.html">Nosotros</a>
-            </li>
-            <li>
-                <a href="./Servicios.html">Servicios</a>
-            </li>
-            <li>
-                <a href="./Promociones.html">Promociones</a>
-            </li>
-            <li>
-                <a href="./Contacto.html">Contacto</a>
-            </li>
-            <hr>
+        <nav class="menu">
+            <img src="../Recursos//HEALT_FONDO.png" alt="Fondo" class="menu__logo">
+        <ul class="menu__lista contenedor__azul">
+            <li class="menu__item"><a href="../Index.html">Inicio</a></li>
+            <li class="menu__item"><a href="./Nosotros.html">Nosotros</a></li>
+            <li class="menu__item"><a href="./Servicios.html">Servicios</a></li>
+            <li class="menu__item"><a href="./Promociones.html">Promociones</a></li>
+            <li class="menu__item"><a href="./Contacto.html">Contacto</a></li>
         </ul>
         </nav>
     </header>
     <main>
-    <h1>Servicios</h1>
-    <img src="../Recursos/imgServ.jpg" alt="imagenDigiPierna" width="200px">
+        <section>
+            <div id="servicios">
+    <h1 id="Servicio__encabezado">Servicios</h1>
+    <img id="imagen1" src="../Recursos/imgServ.jpg" alt="imagenDigiPierna" width="200px">
     <br>
-    <h3>MASOTERAPIA</h3>
-    <p>Es una combinación de 
+    <h3 id="titulo1">MASOTERAPIA</h3>
+    <p id="section__texto1">Es una combinación de 
         técnicas de masajes con
         fines terapéuticos, con
         el fin de mejorar la salud
         del paciente. </p>
-        <button type="button">Agenda Aquí</button>
-        <br>
-        <br>
-    <img src="../Recursos/imgServ2.jpg" alt="imagenQuirop" width="200px">
-    <h3>Quiropraxia</h3>
-    <p>Se trata de una tecnica
+        <button class="healt__button" id="button1" type="button">Agenda Aquí</button>
+    <img id="imagen2" src="../Recursos/imgServ2.jpg" alt="imagenQuirop" width="200px">
+    <h3 id="titulo2">Quiropraxia</h3>
+    <p id="section__texto2">Se trata de una tecnica
         de manipulacion del sistema
         músculo-esquelético. Su objetivo 
         principal es devolver a su posición
         normal las vertebras desplazadas.</p>
-        <button type="button">Agenda Aquí</button>
+        <button class="healt__button" id="button2" type="button">Agenda Aquí</button>
+    </div>
+    </section>
     </main>
     <footer>
         <div class="block__element">
